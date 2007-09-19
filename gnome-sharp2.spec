@@ -1,19 +1,19 @@
 %define	name	gnome-sharp2
-%define oname gnome-sharp
-%define version 2.16.0
-%define release %mkrel 5
-%define mono 1.0.2
-%define monodir %_prefix/lib/mono
+%define oname	gnome-sharp
+%define version	2.16.0
+%define release	%mkrel 6
+%define mono	1.0.2
+%define monodir	%_prefix/lib/mono
 
 Summary:	C# language binding for GNOME
 Name:		%name
 Version:	%version
 Release:	%release
-License:	LGPL
+License:	LGPLv2
 Group:		System/Libraries
 URL:		http://gtk-sharp.sourceforge.net/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-sharp/%oname-%version.tar.bz2
-Patch: gnome-sharp-2.16.0-gtkhtml19.patch
+Patch:		gnome-sharp-2.16.0-gtkhtml19.patch
 BuildRoot:	%_tmppath/%name-buildroot
 BuildRequires:	mono-devel >= %mono
 BuildRequires:	libglade2.0-devel
@@ -27,8 +27,8 @@ BuildRequires:	gnome-panel-devel
 BuildRequires:	vte-devel
 BuildRequires:	gtk-sharp2 >= 2.10.0
 BuildRequires:	glade-sharp2 >= 2.10.0
-Requires:       %mklibname gtkhtml-3.14_ 19
-Requires:       %mklibname vte 9
+Requires:	%mklibname gtkhtml-3.14_ 19
+Requires:	%mklibname vte 9
 
 %description
 Gtk-sharp is a C# language binding for GNOME.
@@ -99,5 +99,4 @@ rm -rf %buildroot
 %defattr(-,root,root)
 %doc ChangeLog 
 %doc sample
-
 
