@@ -26,6 +26,7 @@ BuildRequires:	libgtkhtml-3.14-devel
 BuildRequires:	gnome-panel-devel
 BuildRequires:	vte-devel
 BuildRequires:	gtk-sharp2 >= 2.10.0
+BuildRequires:	gtk-sharp2-devel >= 2.10.0
 BuildRequires:	glade-sharp2 >= 2.10.0
 Requires:	%mklibname gtkhtml-3.14_ 19
 Requires:	%mklibname vte 9
