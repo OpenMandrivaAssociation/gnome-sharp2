@@ -14,6 +14,7 @@ Group:		System/Libraries
 URL:		http://gtk-sharp.sourceforge.net/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-sharp/%oname-%version.tar.bz2
 Patch:		gnome-sharp-2.16.0-gtkhtml19.patch
+BuildRoot:	%_tmppath/%name-buildroot
 BuildRequires:	mono-devel >= %mono
 BuildRequires:	libglade2.0-devel
 BuildRequires:	libxslt-devel
