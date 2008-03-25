@@ -1,7 +1,7 @@
 %define	name	gnome-sharp2
 %define oname gnome-sharp
 %define version 2.20.0
-%define release %mkrel 1
+%define release %mkrel 2
 %define mono 1.0.2
 %define gtk_sharp 2.12.0
 %define monodir %_prefix/lib/mono
@@ -52,7 +52,6 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc ChangeLog README
-%doc sample
 %_bindir/gconfsharp2-schemagen
 /usr/lib/gtk-sharp-2.0/gconfsharp-schemagen.exe
 %monodir/gac/*art-sharp
