@@ -1,7 +1,7 @@
 %define	name	gnome-sharp2
 %define oname gnome-sharp
 %define version 2.20.0
-%define release %mkrel 4
+%define release %mkrel 5
 %define mono 1.0.2
 %define gtk_sharp 2.12.0
 %define monodir %_prefix/lib/mono
@@ -33,6 +33,7 @@ This is a C# language binding for GNOME.
 Summary: C# language binding for GNOME - devel files
 Group: Development/Other
 Requires: %name = %version
+Requires: gtk-sharp2-devel
 
 %description devel
 This is a C# language binding for GNOME. It contains all files that are needed
