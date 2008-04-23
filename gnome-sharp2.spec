@@ -1,9 +1,9 @@
 %define	name	gnome-sharp2
 %define oname gnome-sharp
-%define version 2.20.0
-%define release %mkrel 5
+%define version 2.20.1
+%define release %mkrel 1
 %define mono 1.0.2
-%define gtk_sharp 2.12.0
+%define gtk_sharp 2.12.1
 %define monodir %_prefix/lib/mono
 
 Summary:	C# language binding for GNOME
