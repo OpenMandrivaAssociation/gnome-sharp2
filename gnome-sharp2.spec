@@ -1,7 +1,7 @@
 %define	name	gnome-sharp2
 %define oname gnome-sharp
-%define version 2.20.1
-%define release %mkrel 2
+%define version 2.23.90
+%define release %mkrel 1
 %define mono 1.0.2
 %define gtk_sharp 2.12.1
 %define monodir %_prefix/lib/mono
@@ -10,7 +10,7 @@ Summary:	C# language binding for GNOME
 Name:		%name
 Version:	%version
 Release:	%release
-License:	LGPL
+License:	LGPLv2
 Group:		System/Libraries
 URL:		http://gtk-sharp.sourceforge.net/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-sharp/%oname-%version.tar.bz2
