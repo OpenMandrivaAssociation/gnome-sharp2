@@ -21,7 +21,7 @@ BuildRequires:	libxslt-devel
 BuildRequires:	libgnomeui2-devel
 BuildRequires:	libgnomeprintui-devel
 BuildRequires:	libGConf2-devel
-BuildRequires:	gnome-panel-devel
+BuildRequires:	libpanel-applet-2-devel
 BuildRequires:	gtk-sharp2-devel >= %{gtk_sharp}
 BuildRequires:	gtk-sharp2 >= %{gtk_sharp}
 BuildRequires:	glade-sharp2 >= %{gtk_sharp}
