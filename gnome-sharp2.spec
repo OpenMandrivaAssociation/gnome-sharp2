@@ -12,12 +12,9 @@ Group:		System/Libraries
 URL:		http://gtk-sharp.sourceforge.net/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-sharp/%oname-%version.tar.bz2
 BuildRequires:	mono-devel >= %{mono}
-BuildRequires:	pkgconfig(libglade-2.0)
 BuildRequires:	pkgconfig(xtst)
 BuildRequires:	pkgconfig(libgnomeui-2.0)
-BuildRequires:	pkgconfig(libgnomeprintui-2.2)
-BuildRequires:	pkgconfig(gconf-2.0)
-BuildRequires:	pkgconfig(libpanelapplet-2.0)
+BuildRequires:	pkgconfig(libgnomecanvas-2.0)
 BuildRequires:	gtk-sharp2-devel >= %{gtk_sharp}
 BuildRequires:	gtk-sharp2 >= %{gtk_sharp}
 BuildRequires:	glade-sharp2 >= %{gtk_sharp}
