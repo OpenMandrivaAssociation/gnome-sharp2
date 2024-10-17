@@ -9,7 +9,7 @@ Version:	2.24.2
 Release:	5
 License:	LGPLv2
 Group:		System/Libraries
-URL:		http://gtk-sharp.sourceforge.net/
+URL:		https://gtk-sharp.sourceforge.net/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-sharp/%oname-%version.tar.bz2
 BuildRequires:	mono-devel >= %{mono}
 BuildRequires:	pkgconfig(xtst)
