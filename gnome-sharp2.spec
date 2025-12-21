@@ -11,6 +11,11 @@ License:	LGPLv2
 Group:		System/Libraries
 URL:		https://gtk-sharp.sourceforge.net/
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/gnome-sharp/%oname-%version.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	mono-devel >= %{mono}
 BuildRequires:	pkgconfig(xtst)
 BuildRequires:	pkgconfig(libgnomeui-2.0)
