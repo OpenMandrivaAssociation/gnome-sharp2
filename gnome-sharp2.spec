@@ -6,7 +6,7 @@
 Summary:	C# language binding for GNOME
 Name:		gnome-sharp2
 Version:	2.24.2
-Release:	5
+Release:	6
 License:	LGPLv2
 Group:		System/Libraries
 URL:		https://gtk-sharp.sourceforge.net/
